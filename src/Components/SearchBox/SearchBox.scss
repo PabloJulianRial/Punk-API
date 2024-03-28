@@ -1,5 +1,11 @@
 .search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: azure;
   width: 100%;
   height: 50%;
+}
+.search-box__icon {
+  font-size: 40px;
 }

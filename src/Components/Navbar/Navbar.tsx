@@ -1,11 +1,11 @@
-import OptionsList from "../OptionsList/OptionsList";
 import SearchBox from "../SearchBox/SearchBox";
 import "../Navbar/Navbar.scss";
+import Header from "../Header/Header";
 function NavBar() {
   return (
     <div className="navbar">
+      <Header />
       <SearchBox />
-      <OptionsList />
     </div>
   );
 }
