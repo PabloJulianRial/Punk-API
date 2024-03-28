@@ -7,5 +7,16 @@
   height: 50%;
 }
 .search-box__icon {
-  font-size: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.search-box__input {
+  border-radius: 5px;
+  display: none;
+}
+.search-box__input--true {
+  display: block;
+}
+.search-box__input--false {
+  display: none;
 }

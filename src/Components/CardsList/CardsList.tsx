@@ -10,6 +10,7 @@ function CardsList() {
       {beers.map((beer) => {
         return (
           <Card
+            key={beer.id}
             name={beer.name}
             tagline={beer.tagline}
             description={beer.description}
