@@ -3,11 +3,21 @@ import Card from "../Card/Card";
 import "../../assets/data/beers";
 import "../../assets/data/types";
 import beers from "../../assets/data/beers";
+import { FormEventHandler } from "react";
 
-function CardsList() {
+type CardsListProps = {
+  searchTerm: string;
+  handleInput: FormEventHandler<HTMLInputElement>;
+};
+
+function CardsList({ searchTerm }: CardsListProps) {
+  const filteredBeers = beers.filter((beer) => {
+    return beer.name.toLowerCase().includes(searchTerm.toLowerCase());
+  });
+
   return (
     <div className="cards-list">
-      {beers.map((beer) => {
+      {filteredBeers.map((beer) => {
         return (
           <Card
             key={beer.id}

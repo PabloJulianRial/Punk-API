@@ -1,7 +1,13 @@
 import { useState } from "react";
+import { FormEventHandler } from "react";
 import "../SearchBox/SearchBox.scss";
 
-const SearchBox = () => {
+type SearchBoxProps = {
+  searchTerm: string;
+  handleInput: FormEventHandler<HTMLInputElement>;
+};
+
+const SearchBox = ({ searchTerm, handleInput }: SearchBoxProps) => {
   const [showSearchBar, setShowSearchBar] = useState<boolean>(false);
   const toggleSearchBox = () => {
     if (!showSearchBar) {
@@ -15,7 +21,12 @@ const SearchBox = () => {
 
   return (
     <div className="search-box">
-      <input type="text" className={searchBarClass} />
+      <input
+        type="text"
+        className={searchBarClass}
+        value={searchTerm}
+        onInput={handleInput}
+      />
       <i
         className="fa-solid fa-magnifying-glass search-box__icon"
         onClick={toggleSearchBox}
