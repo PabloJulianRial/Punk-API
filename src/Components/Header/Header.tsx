@@ -1,10 +1,18 @@
 import "../Suggestions/Suggestions";
-import Suggestions from "../Suggestions/Suggestions";
 import "../Header/Header.scss";
+import NavMenu from "../NavMenu/NavMenu";
+import { useState } from "react";
+
 function Header() {
+  const [showNav, setShowNav] = useState(false);
+
+  const toggleNav = () => {
+    setShowNav(!showNav);
+  };
   return (
     <div className="header">
-      <i className="fa-solid fa-bars header__menu"></i>
+      {showNav && <NavMenu onClose={toggleNav} />}
+      <i className="fa-solid fa-bars header__menu" onClick={toggleNav}></i>
 
       <div className="header__head">
         <h2 className="header__head--title">Punk API</h2>

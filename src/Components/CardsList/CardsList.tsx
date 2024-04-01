@@ -3,11 +3,9 @@ import Card from "../Card/Card";
 import "../../assets/data/beers";
 import "../../assets/data/types";
 import beers from "../../assets/data/beers";
-import { FormEventHandler } from "react";
 
 type CardsListProps = {
   searchTerm: string;
-  handleInput: FormEventHandler<HTMLInputElement>;
 };
 
 function CardsList({ searchTerm }: CardsListProps) {

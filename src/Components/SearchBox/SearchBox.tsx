@@ -17,7 +17,7 @@ const SearchBox = ({ searchTerm, handleInput }: SearchBoxProps) => {
     }
   };
 
-  let searchBarClass = `search-box__input--${showSearchBar}`;
+  let searchBarClass = `search-box__input search-box__input--${showSearchBar}`;
 
   return (
     <div className="search-box">
