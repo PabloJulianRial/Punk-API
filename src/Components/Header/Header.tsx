@@ -3,7 +3,15 @@ import "../Header/Header.scss";
 import NavMenu from "../NavMenu/NavMenu";
 import { useState } from "react";
 
-function Header() {
+type HeaderProps = {
+  handleCheckboxChange: (name: string) => void;
+  handleCheckboxChangeRemove: (name: string) => void;
+};
+
+function Header({
+  handleCheckboxChange,
+  handleCheckboxChangeRemove,
+}: HeaderProps) {
   const [showNav, setShowNav] = useState(false);
 
   const toggleNav = () => {
@@ -11,7 +19,13 @@ function Header() {
   };
   return (
     <div className="header">
-      {showNav && <NavMenu onClose={toggleNav} />}
+      {showNav && (
+        <NavMenu
+          onClose={toggleNav}
+          handleCheckboxChange={handleCheckboxChange}
+          handleCheckboxChangeRemove={handleCheckboxChangeRemove}
+        />
+      )}
       <i className="fa-solid fa-bars header__menu" onClick={toggleNav}></i>
 
       <div className="header__head">

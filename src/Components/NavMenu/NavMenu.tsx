@@ -2,9 +2,24 @@ import "./NavMenu.scss";
 import blackCross from "../../assets/icons/black-cross.png";
 type NavMenuProps = {
   onClose: () => void;
+  handleCheckboxChange: (name: string) => void;
+  handleCheckboxChangeRemove: (name: string) => void;
 };
 
-const NavMenu = ({ onClose }: NavMenuProps) => {
+const NavMenu = ({
+  onClose,
+  handleCheckboxChange,
+  handleCheckboxChangeRemove,
+}: NavMenuProps) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, checked } = event.target;
+    if (checked) {
+      handleCheckboxChange(name);
+    } else {
+      handleCheckboxChangeRemove(name);
+    }
+  };
+
   return (
     <div className="nav-menu">
       <img className="nav-cross" src={blackCross} alt="" onClick={onClose} />
@@ -14,6 +29,7 @@ const NavMenu = ({ onClose }: NavMenuProps) => {
           type="checkbox"
           id="abv"
           name="abv"
+          onChange={handleChange}
         />
         <label className="nav-menu__label" htmlFor="abv">
           ABV
@@ -24,8 +40,9 @@ const NavMenu = ({ onClose }: NavMenuProps) => {
         <input
           className="nav-menu__input"
           type="checkbox"
-          id="Classic"
-          name="Classic"
+          id="classic"
+          name="classic"
+          onChange={handleChange}
         />
         <label className="nav-menu__label" htmlFor="Classic">
           Classic range
@@ -35,8 +52,9 @@ const NavMenu = ({ onClose }: NavMenuProps) => {
         <input
           className="nav-menu__input"
           type="checkbox"
-          id="Acidity"
-          name="Acidity"
+          id="acidity"
+          name="acidity"
+          onChange={handleChange}
         />
         <label className="nav-menu__label" htmlFor="Acidity">
           Acidity

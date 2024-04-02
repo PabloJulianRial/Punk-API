@@ -6,12 +6,23 @@ import { FormEventHandler } from "react";
 type NavbarProps = {
   searchTerm: string;
   handleInput: FormEventHandler<HTMLInputElement>;
+  handleCheckboxChange: (name: string) => void;
+  handleCheckboxChangeRemove: (name: string) => void;
+  checkedBoxes: string[];
 };
 
-function NavBar({ searchTerm, handleInput }: NavbarProps) {
+function NavBar({
+  handleCheckboxChangeRemove,
+  searchTerm,
+  handleInput,
+  handleCheckboxChange,
+}: NavbarProps) {
   return (
     <div className="navbar">
-      <Header />
+      <Header
+        handleCheckboxChange={handleCheckboxChange}
+        handleCheckboxChangeRemove={handleCheckboxChangeRemove}
+      />
       <SearchBox searchTerm={searchTerm} handleInput={handleInput} />
     </div>
   );
