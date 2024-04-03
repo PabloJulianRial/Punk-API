@@ -1,5 +1,5 @@
 .cards-list {
-  width: 100%;
+  width: 100vw;
   height: auto;
   flex-wrap: wrap;
   display: flex;
@@ -10,4 +10,16 @@
   width: 100%;
   border: 1px solid rgb(240, 230, 230);
   text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .cards-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

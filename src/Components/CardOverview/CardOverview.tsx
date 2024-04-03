@@ -1,6 +1,7 @@
 import "./CardOverview.scss";
 import { Beer } from "../../assets/data/types";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 type CardOverviewProps = {
   beers: Beer[];
 };
@@ -31,6 +32,11 @@ function CardOverview({ beers }: CardOverviewProps) {
           <p className="overview-card__info--food--head">Goes with:</p>
           <p className="overview-card__info--food">{beer.food_pairing}</p>
         </div>
+      </div>
+      <div className="overview-card__link">
+        <Link className="home-link" to="/">
+          Home
+        </Link>
       </div>
     </div>
   );
