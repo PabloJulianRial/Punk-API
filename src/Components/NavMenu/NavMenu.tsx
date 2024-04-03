@@ -2,11 +2,13 @@ import "./NavMenu.scss";
 import blackCross from "../../assets/icons/black-cross.png";
 type NavMenuProps = {
   onClose: () => void;
+  isMenuOpen: boolean;
   handleCheckboxChange: (name: string) => void;
   handleCheckboxChangeRemove: (name: string) => void;
 };
 
 const NavMenu = ({
+  isMenuOpen,
   onClose,
   handleCheckboxChange,
   handleCheckboxChangeRemove,
@@ -21,7 +23,9 @@ const NavMenu = ({
   };
 
   return (
-    <div className="nav-menu">
+    <div className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
+      <p className="nav-menu__head">Search by</p>
+
       <img className="nav-cross" src={blackCross} alt="" onClick={onClose} />
       <div className="nav-menu__item">
         <input
@@ -35,7 +39,6 @@ const NavMenu = ({
           ABV
         </label>
       </div>
-
       <div className="nav-menu__item">
         <input
           className="nav-menu__input"

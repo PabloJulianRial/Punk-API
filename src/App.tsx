@@ -3,9 +3,9 @@ import NavBar from "./Components/Navbar/Navbar";
 import { useState } from "react";
 import CardsList from "./Components/CardsList/CardsList";
 import { FormEvent } from "react";
+
 function App() {
   const [searchTerm, setSearchTerm] = useState<string>("");
-  // const [beers, setBeers] = useState<Beer[]>();
   const [checkedBoxes, setCheckedBoxes] = useState<string[]>([]);
 
   const handleInput = (event: FormEvent<HTMLInputElement>) => {
@@ -15,13 +15,11 @@ function App() {
 
   const handleCheckboxChange = (name: string) => {
     setCheckedBoxes((prevCheckedBoxes) => [...prevCheckedBoxes, name]);
-    console.log(checkedBoxes);
   };
   const handleCheckboxChangeRemove = (name: string) => {
     setCheckedBoxes((prevCheckedBoxes) =>
       prevCheckedBoxes.filter((item) => item !== name)
     );
-    console.log(checkedBoxes);
   };
 
   return (

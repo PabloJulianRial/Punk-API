@@ -21,7 +21,7 @@ function CardsList({ searchTerm, checkedBoxes }: CardsListProps) {
   }
   if (checkedBoxes.includes("classic")) {
     beersByCheckBox = beersByCheckBox.filter((beer) => {
-      return Number(beer.first_brewed.slice(-4)) >= 2010;
+      return Number(beer.first_brewed.slice(-4)) <= 2010;
     });
   }
   if (checkedBoxes.includes("abv")) {
@@ -43,7 +43,6 @@ function CardsList({ searchTerm, checkedBoxes }: CardsListProps) {
             key={beer.id}
             name={beer.name}
             tagline={beer.tagline}
-            description={beer.description}
             first_brewed={beer.first_brewed}
             abv={beer.abv}
             ibu={beer.ibu}
