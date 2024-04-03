@@ -1,36 +1,36 @@
 import "./CardOverview.scss";
-
+import { Beer } from "../../assets/data/types";
+import { useParams } from "react-router-dom";
 type CardOverviewProps = {
-  name: string;
-  tagline: string;
-  first_brewed: string;
-  description: string;
-  image_url: string;
-  abv: number;
-  ibu: number;
+  beers: Beer[];
 };
 
-function CardOverview({
-  name,
-  description,
-  image_url,
-  ibu,
-  abv,
-  first_brewed,
-  tagline,
-}: CardOverviewProps) {
+function CardOverview({ beers }: CardOverviewProps) {
+  const { beerId } = useParams();
+  const beer = beers.find((beer) => beer.id.toString() === beerId);
+  if (beer == undefined) {
+    return <p>couldn't find a beer with that id</p>;
+  }
+
   return (
     <div className="overview-card">
-      <div className="overview-card__info">
-        <h3 className="overview-card__info--head">{name}</h3>
+      <h3 className="overview-card__head">{beer.name}</h3>
+      <div className="overview-card__stats">
+        <p className="overview-card__info--abv">Alcohol content {beer.abv}%</p>
+        <p className="overview-card__info--ibu">Acidity {beer.ibu} IBU</p>
+      </div>
+      <div className="overview-card__content">
         <div className="overview-card__img">
-          <img src={image_url} alt="" />
+          <img src={beer.image_url} alt="" />
         </div>
-        <p className="overview-card__info--text">{description}</p>
-        <p className="overview-card__info--tag">{tagline}</p>
-        <p className="overview-card__info--abv">{abv}</p>
-        <p className="overview-card__info--ibu">{ibu}</p>
-        <p className="overview-card__info--date">{first_brewed}</p>
+        <div className="overview-card__info">
+          <p className="overview-card__info--tag">{beer.tagline}</p>
+          <p className="overview-card__info--date">Since {beer.first_brewed}</p>
+          <p className="overview-card__info--text">{beer.description}</p>
+
+          <p className="overview-card__info--food--head">Goes with:</p>
+          <p className="overview-card__info--food">{beer.food_pairing}</p>
+        </div>
       </div>
     </div>
   );

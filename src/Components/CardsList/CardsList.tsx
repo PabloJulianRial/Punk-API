@@ -4,6 +4,7 @@ import "../../assets/data/beers";
 import "../../assets/data/types";
 import beers from "../../assets/data/beers";
 import { Beer } from "../../assets/data/types";
+import { Link } from "react-router-dom";
 
 type CardsListProps = {
   searchTerm: string;
@@ -39,15 +40,17 @@ function CardsList({ searchTerm, checkedBoxes }: CardsListProps) {
     <div className="cards-list">
       {filteredBeers.map((beer) => {
         return (
-          <Card
-            key={beer.id}
-            name={beer.name}
-            tagline={beer.tagline}
-            first_brewed={beer.first_brewed}
-            abv={beer.abv}
-            ibu={beer.ibu}
-            image_url={beer.image_url}
-          />
+          <Link className="card-link" to={`/beer/${beer.id}`} key={beer.id}>
+            <Card
+              key={beer.id}
+              name={beer.name}
+              tagline={beer.tagline}
+              first_brewed={beer.first_brewed}
+              abv={beer.abv}
+              ibu={beer.ibu}
+              image_url={beer.image_url}
+            />
+          </Link>
         );
       })}
     </div>

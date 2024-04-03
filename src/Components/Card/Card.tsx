@@ -4,7 +4,7 @@ type CardProps = {
   name: string;
   tagline: string;
   first_brewed: string;
-  // description: string;
+
   image_url: string;
   abv: number;
   ibu: number;
@@ -39,7 +39,6 @@ function Card({ name, image_url, tagline, abv, ibu }: CardProps) {
           <p className={abvClasses}>{abv}% ABV</p>
           <p className={ibuClasses}>{ibu} IBU</p>
           <p></p>
-          {/* <p className="card__info--text">{description}</p> */}
         </div>
         <div className="card__img">
           <img src={image_url} alt="" />

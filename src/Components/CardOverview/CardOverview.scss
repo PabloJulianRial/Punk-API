@@ -1,26 +1,57 @@
 .overview-card {
+  &__content {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__stats {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+  }
   width: 100%;
   height: 80vh;
-  background-color: rgb(191, 191, 216);
+  background-color: rgb(201, 210, 244);
+  &__head {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 30px;
+    color: rgb(69, 10, 87);
+  }
+  &__info {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    font-size: 10px;
+    > * {
+      font-size: 16px;
+    }
+    &--tag {
+      color: rgb(134, 95, 5);
+      font-size: 20px;
+    }
+    &--date {
+      color: rgb(134, 95, 5);
+      margin-bottom: 10px;
+    }
+    &--text {
+      color: rgb(69, 10, 87);
+      margin-bottom: 10px;
+    }
+    &--food {
+      color: rgb(169, 35, 57);
+      &--head {
+        color: rgb(88, 5, 5);
+        font-size: 18px;
+      }
+    }
+  }
 }
-.overview-card__container {
-  flex-direction: column;
-  height: 20vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid black;
-}
-.card__info {
-  border: 1px solid black;
-  width: 60%;
-  height: 100%;
-  font-size: 10px;
-}
-.card__img {
-  width: 40%;
-  height: 100%;
-  border: 1px solid black;
+
+.overview-card__img {
+  width: 30%;
 }
 img {
   width: 100%;

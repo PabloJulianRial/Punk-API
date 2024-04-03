@@ -3,6 +3,9 @@ import NavBar from "./Components/Navbar/Navbar";
 import { useState } from "react";
 import CardsList from "./Components/CardsList/CardsList";
 import { FormEvent } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CardOverview from "./Components/CardOverview/CardOverview";
+import beers from "./assets/data/beers";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -23,16 +26,29 @@ function App() {
   };
 
   return (
-    <div className="app">
-      <NavBar
-        checkedBoxes={checkedBoxes}
-        searchTerm={searchTerm}
-        handleInput={handleInput}
-        handleCheckboxChange={handleCheckboxChange}
-        handleCheckboxChangeRemove={handleCheckboxChangeRemove}
-      />
-      <CardsList searchTerm={searchTerm} checkedBoxes={checkedBoxes} />
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <NavBar
+          checkedBoxes={checkedBoxes}
+          searchTerm={searchTerm}
+          handleInput={handleInput}
+          handleCheckboxChange={handleCheckboxChange}
+          handleCheckboxChangeRemove={handleCheckboxChangeRemove}
+        />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <CardsList searchTerm={searchTerm} checkedBoxes={checkedBoxes} />
+            }
+          ></Route>
+          <Route
+            path="/beer/:beerId"
+            element={<CardOverview beers={beers} />}
+          />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
