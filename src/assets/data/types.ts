@@ -4,7 +4,7 @@ export type Beer = {
   tagline: string;
   first_brewed: string;
   description: string;
-  image_url?: string;
+  image_url: string;
   abv: number;
   ibu: number;
   target_fg: number;
@@ -37,7 +37,7 @@ type Hop = {
 
 type Malt = {
   name: string;
-  amount?: Volume;
+  amount: Volume;
 };
 
 type Method = {
@@ -52,10 +52,10 @@ type Fermentation = {
 
 type MashTemp = {
   temp: Volume;
-  duration?: number;
+  duration: number;
 };
 
 type Volume = {
-  value?: number;
+  value: number;
   unit: string;
 };
