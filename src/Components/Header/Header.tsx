@@ -1,4 +1,3 @@
-import "../Suggestions/Suggestions";
 import "../Header/Header.scss";
 import NavMenu from "../NavMenu/NavMenu";
 import { useState } from "react";
