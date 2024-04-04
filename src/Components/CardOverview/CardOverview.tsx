@@ -33,7 +33,7 @@ function CardOverview({ beers }: CardOverviewProps) {
           <p className="overview-card__info--food">{beer.food_pairing}</p>
         </div>
       </div>
-      <div className="overview-card__link">
+      <div className="home-link__container">
         <Link className="home-link" to="/">
           Home
         </Link>

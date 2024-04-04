@@ -37,8 +37,19 @@
   .navbar {
     height: 10vh;
   }
-  .search-box__input--true {
-    width: 250px;
+
+  .search-box {
+    &__input {
+      height: 40px;
+      font-size: 35px;
+      border-radius: 20px;
+      &--true {
+        width: 300px;
+      }
+    }
+    &__icon {
+      font-size: 40px;
+    }
   }
 }
 @media screen and (min-width: 1024px) {
