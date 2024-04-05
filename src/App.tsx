@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Punk-API">
       <div className="app">
         <NavBar
           checkedBoxes={checkedBoxes}

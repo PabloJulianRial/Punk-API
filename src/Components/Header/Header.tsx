@@ -27,14 +27,14 @@ function Header({
       />
 
       <i className="fa-solid fa-bars header__menu" onClick={toggleNav}></i>
-      <h2 className="hidden">Beer search engine Punk API</h2>
+      <h2 className="hidden">
+        PUNK API...<span>the beer search engine</span>{" "}
+      </h2>
       <div className="header__head">
         <h2 className="header__head--title">Punk API</h2>
 
         <i className="fa-solid fa-beer-mug-empty header__head--img"></i>
       </div>
-
-      <i className="fa-solid fa-lightbulb header__head--icon"></i>
     </div>
   );
 }
