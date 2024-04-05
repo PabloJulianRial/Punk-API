@@ -17,7 +17,7 @@ function App() {
   };
 
   const handleCheckboxChange = (name: string) => {
-    setCheckedBoxes((prevCheckedBoxes) => [...prevCheckedBoxes, name]);
+    setCheckedBoxes((currentCheckedBoxes) => [...currentCheckedBoxes, name]);
   };
   const handleCheckboxChangeRemove = (name: string) => {
     setCheckedBoxes((prevCheckedBoxes) =>

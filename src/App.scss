@@ -1,7 +1,6 @@
-@use "./styles/layout";
 @use "./styles/reset";
 @use "./styles/typography";
-@use "./styles/variables";
+
 .app {
   width: 100vw;
   display: flex;
