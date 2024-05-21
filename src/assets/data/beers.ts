@@ -8,7 +8,8 @@ const beers: Beer[] = [
     first_brewed: "04/2013",
     description:
       "10 Heads High is loosely based on our awesome 2011 Prototype beer Hops Kill Nazis. This is an uncompromising 7.8% Imperial Red Ale loaded high with American Hops. Think of this as an Imperial India Red Ale, or a super-charged version of 5am Saint. Either way this is a seriously good beer!",
-    image_url: "https://images.punkapi.com/v2/29.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/headshigh.jpg",
     abv: 7.8,
     ibu: 70,
     target_fg: 1015,
@@ -83,7 +84,8 @@ const beers: Beer[] = [
     first_brewed: "06/2009",
     description:
       "Out of order and stability comes the rush of the pack. Berry and caramel riding alongside marmalade and chocolate. Spice and toast jostle with lychee and biscuit. The needle flicks to all points of the compass. It drives you towards the horizon, towards the vanishing point. And it keeps going...",
-    image_url: "https://images.punkapi.com/v2/132.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/5am-saint.jpg",
     abv: 5,
     ibu: 30,
     target_fg: 1012,
@@ -193,7 +195,8 @@ const beers: Beer[] = [
     first_brewed: "12/2008",
     description:
       "Think of everything you know about lagers. Then forget it all instantly. 77 will redefine the experience forever. A Lager that actually tastes of something? You have to be kidding, right? 77 lager is made with 100% malt and whole leaf hops. It contains no preservatives, additives, cheap substitutes or any other junk. Maybe we are crazy. So what? Taste 77 Lager and we are pretty sure you will agree that the fine line between genius and insanity has just become a little more blurred.",
-    image_url: "https://images.punkapi.com/v2/162.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/77-lager.jpg",
     abv: 4.9,
     ibu: 30,
     target_fg: 1009,
@@ -259,7 +262,8 @@ const beers: Beer[] = [
     first_brewed: "02/2010",
     description:
       "Made with the yeast from a bottle of Westvleteren 12, aged with vanilla beans. Only available in 375ml bottles. Limited to 3200 bottles. The first in our Abstrakt series.",
-    image_url: "https://images.punkapi.com/v2/198.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
     abv: 10.2,
     ibu: 20,
     target_fg: 1018,
@@ -320,7 +324,8 @@ const beers: Beer[] = [
     first_brewed: "08/2010",
     description:
       "Imperial Stout brewed with coffee, cocoa, Naga chillies (the hottest in the world), and champagne yeast. Possibly our most acclaimed Abstrakt yet.",
-    image_url: "https://images.punkapi.com/v2/80.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
     abv: 15,
     ibu: 80,
     target_fg: 1018,
@@ -392,7 +397,8 @@ const beers: Beer[] = [
     first_brewed: "12/2010",
     description:
       "Belgian Imperial Stout aged on toasted coconut and cacao. The Belgian yeast strain introduces a whole new dimension to the Imperial Stout style resulting in a beer that resembles a marshmallow toasted on a smouldering barbeque then smothered in dark chocolate. Massively seductive and encapsulating this blacker than midnight beer pours with coffee brown head so thick you could almost stand on it, and with an epic lacing on your glass.",
-    image_url: "https://images.punkapi.com/v2/32.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
     abv: 12.5,
     ibu: 40,
     target_fg: 1030,
@@ -456,7 +462,8 @@ const beers: Beer[] = [
     first_brewed: "03/2010",
     description:
       "Whisky cask-aged imperial scotch ale. Beer perfect for when the rain is coming sideways. Liquorice, plum and raisin temper the warming alcohol, producing a beer capable of holding back the Scottish chill.",
-    image_url: "https://images.punkapi.com/v2/9.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
     abv: 12.5,
     ibu: 30,
     target_fg: 1020,
@@ -519,7 +526,8 @@ const beers: Beer[] = [
     first_brewed: "11/2010",
     description:
       "This Cranachan Imperial Stout was inspired by the famous Scottish dessert, and brewed with a mountain of dark malts, loads of oats, Scottish heather honey and local raspberries. The beer was then transferred to oak casks to mature for 6 months.",
-    image_url: "https://images.punkapi.com/v2/92.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
     abv: 11.6,
     ibu: 77,
     target_fg: 1022,
@@ -584,7 +592,8 @@ const beers: Beer[] = [
     first_brewed: "10/2011",
     description:
       "A decadent, robust and encapsulating Imperial Ale. A rollercoaster of devilish berries, smooth vanilla, toasted marshmallow and wine gums; caramel malt balanced with moderate bitterness and a roasty edge.",
-    image_url: "https://images.punkapi.com/v2/120.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
     abv: 11.5,
     ibu: 80,
     target_fg: 1020,
@@ -650,7 +659,8 @@ const beers: Beer[] = [
     first_brewed: "08/2012",
     description:
       "AB:11 is an Imperial Black Barley Wine brewed with ginger, black raspberries and chipotle peppers. A 12.8% rollercoaster of ginger zestiness and chipotle smokiness, all bound together with dark berry tartness and the decadent residual body of a Black Barley Wine.",
-    image_url: "https://images.punkapi.com/v2/189.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
     abv: 12.8,
     ibu: 70,
     target_fg: 1020,
@@ -732,7 +742,8 @@ const beers: Beer[] = [
     first_brewed: "07/2012",
     description:
       "An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.",
-    image_url: "https://images.punkapi.com/v2/7.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
     abv: 11.2,
     ibu: 35,
     target_fg: 1017,
@@ -833,7 +844,8 @@ const beers: Beer[] = [
     first_brewed: "02/2013",
     description:
       "Think banoffee pie; loads of creamy sweet banana, and sticky warm toffee. This beer is super complex, and one for the sweet-toothed!",
-    image_url: "https://images.punkapi.com/v2/49.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
     abv: 10,
     ibu: 30,
     target_fg: 1016,
@@ -906,7 +918,8 @@ const beers: Beer[] = [
     first_brewed: "03/2013",
     description:
       "A salted caramel popcorn Imperial Ale. Bourbon and Rum barrel aged, this 12.8% ale has complex and twisting flavours. Bitter caramel, wood, smoke, spice, treacle and vanilla are all present and intertwine against a smooth and lightly chewy mouthfeel. The salted caramel popcorn lends subtle hints of a smoky brininess.",
-    image_url: "https://images.punkapi.com/v2/47.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
     abv: 12.8,
     ibu: 50,
     target_fg: 1020,
@@ -966,7 +979,8 @@ const beers: Beer[] = [
     first_brewed: "02/2014",
     description:
       "On the nose, clove and nutmeg, cafe au lait, subtle dark fruit notes, and hints of candied lemon peel. On the palate, smooth & fruity espresso, milk chocolate, and warm brandy-soaked currants are in the middle of a high-class dance-off against the spicy and peppery Belgian character. The overall impression evokes malt loaf or ginger cake.",
-    image_url: "https://images.punkapi.com/v2/69.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
     abv: 10.6,
     ibu: 55,
     target_fg: 1012,
@@ -1029,7 +1043,8 @@ const beers: Beer[] = [
     first_brewed: "10/2014",
     description:
       "A triple whammy of coffee from HasBean gives our 17th Abstrakt concept beer an intense and roasty, dark mocha character. We brewed with espresso in the mash, cafetiere in the boil, and whole roast beans in the whirlpool and the fermenter.",
-    image_url: "https://images.punkapi.com/v2/41.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
     abv: 10.7,
     ibu: 100,
     target_fg: 1025,
@@ -1090,7 +1105,8 @@ const beers: Beer[] = [
     first_brewed: "10/2011",
     description:
       "AB:18 began life as an Imperial Brown Ale before we bombarded it with Scottish tayberries and Purple raspberries and locked it away in rum barrels for two years, infusing rich dark fruit flavours and oaky warmth into the mix.",
-    image_url: "https://images.punkapi.com/v2/78.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
     abv: 11.8,
     ibu: 80,
     target_fg: 1020,
@@ -1161,7 +1177,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "An English Barley Wine brewed with coffee and milk, with rich toasty & caramel flavours. To complete the tiramisu effect, we’ve blended this with a 3 year rum cask aged Imperial Stout.",
-    image_url: "https://images.punkapi.com/v2/224.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
     abv: 14.2,
     ibu: 20,
     target_fg: 1120,
@@ -1220,7 +1237,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "We love hops. We adore and worship their profile ability to transform beer. You could say that we have a terminal addiction. To celebrate this fetish we’re heroing our favourites in single hopped limited releases. No also starring, no extras, no compromise. The Hop is the Hero. A biscuity malty backbone builds to intense resinous pine with pithy citrus notes, culminating in a grapefruit hit and a long bitter finish. Our Ace in the hole, devastatingly singular, deliciously bitter. Serving up an Ace each and every time.",
-    image_url: "https://images.punkapi.com/v2/231.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/aceofequinox.jpg",
     abv: 4.5,
     ibu: 40,
     target_fg: 1011,
@@ -1286,7 +1304,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "We love hops. We adore and worship their profile ability to transform beer. You could say that we have a terminal addiction. To celebrate this fetish we’re heroing our favourites in single hopped limited releases. No also starring, no extras, no compromise. The Hop is the Hero. A biscuity malty backbone layered with berry and resin, culminating with a lime zest hit and an explosive bitter citrus finish. Our Ace in the hole, devastatingly singular, deliciously bitter. Serving up an Ace each and every time.",
-    image_url: "https://images.punkapi.com/v2/233.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/aceofsitra.jpg",
     abv: 4.5,
     ibu: 40,
     target_fg: 1011,
@@ -1352,7 +1371,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "We love hops. We adore and worship their profile ability to transform beer. You could say that we have a terminal addiction. To celebrate this fetish we’re heroing our favourites in single hopped limited releases. No also starring, no extras, no compromise. The Hop is the Hero. A biscuity malty backbone builds to intense tropical fruit, with bitter resin notes, culminating with an explosive papya hit and a long bitter finish. Our Ace in the hole, devastatingly singular, deliciously bitter. Serving up an Ace each and every time.",
-    image_url: "https://images.punkapi.com/v2/232.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/aceofequinox.jpg",
     abv: 4.5,
     ibu: 40,
     target_fg: 1011,
@@ -1418,7 +1438,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "We love hops. We adore and worship their profile ability to transform beer. You could say that we have a terminal addiction. To celebrate this fetish we’re heroing our favourites in single hopped limited releases. No also starring, no extras, no compromise. The Hop is the Hero. A biscuity malty backbone builds to resinous pine with explosive citrus notes, culminating in a mango hit and a long bitter finish. This is pure Hop fusion, imploding with sensory overload. Our Ace in the hole, devastatingly singular, deliciously bitter. Serving up an Ace each and every time.",
-    image_url: "https://images.punkapi.com/v2/220.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/aceofsimcoe.jpg",
     abv: 4.5,
     ibu: 40,
     target_fg: 1011,
@@ -1485,7 +1506,8 @@ const beers: Beer[] = [
     first_brewed: "02/2010",
     description:
       "A fusion of caramel malt flavours and punchy New Zealand hops. A session beer you can get your teeth into.",
-    image_url: "https://images.punkapi.com/v2/14.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/alpha-dog.jpg",
     abv: 4.5,
     ibu: 42,
     target_fg: 1025,
@@ -1555,7 +1577,8 @@ const beers: Beer[] = [
     first_brewed: "07/2014",
     description:
       "A luscious blend of peach, blood orange and banana to make a suitably refreshing beverage that happily straddles the Atlantic.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.5,
     ibu: 17,
     target_fg: 1013,
@@ -1609,7 +1632,8 @@ const beers: Beer[] = [
     first_brewed: "03/2012",
     description:
       "About as far as you can push an IPA; Anarchist Alchemist packs in three times the malt and three of our favourite hops. Nelson Sauvin, Amarillo and Centennial bring a range of flavours, touching on tropical fruit, white grape, tangerine, grapefruit, pine, spiced orange... the list goes on!",
-    image_url: "https://images.punkapi.com/v2/46.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/anarchist.jpg",
     abv: 16.5,
     ibu: 20.5,
     target_fg: 1000,
@@ -1698,7 +1722,8 @@ const beers: Beer[] = [
     first_brewed: "12/2008",
     description:
       'Like IPA historically would have been. Part of this beer was aged on a fishing boat in an oak cask and released as "Atlantic IPA".',
-    image_url: "https://images.punkapi.com/v2/184.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/atlantic-ipa.jpg",
     abv: 8,
     ibu: 80,
     target_fg: 1013,
@@ -1770,7 +1795,8 @@ const beers: Beer[] = [
     first_brewed: "02/2011",
     description:
       "An Imperial Pilsner in collaboration with beer writers. Tradition. Homage. Revolution. We wanted to showcase the awesome backbone of the Czech brewing tradition, the noble Saaz hop, and also tip our hats to the modern beers that rock our world, and the people who make them.",
-    image_url: "https://images.punkapi.com/v2/5.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/averybrown.jpg",
     abv: 7.2,
     ibu: 59,
     target_fg: 1027,
@@ -1829,7 +1855,8 @@ const beers: Beer[] = [
     first_brewed: "09/2013",
     description:
       "A baby Scotch ale with dry and toasty malt flavours and hints of smoke. Toffee, biscuit and fudge abound with a spicy bitterness from the pan-global hops.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.5,
     ibu: 35,
     target_fg: 1013,
@@ -1900,7 +1927,8 @@ const beers: Beer[] = [
     first_brewed: "08/2015",
     description:
       "A hark back to the origins of Saison; slight spice and earthy notes with highlights of lemon and pepper make a beer that could quench the thirst of any seasonal worker.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 3.6,
     ibu: 9,
     target_fg: 1004,
@@ -1971,7 +1999,8 @@ const beers: Beer[] = [
     first_brewed: "10/2008",
     description:
       "2008 Prototype beer, a 4.7% wheat ale with crushed juniper berries and citrus peel.",
-    image_url: "https://images.punkapi.com/v2/25.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/bad-pixie.jpg",
     abv: 4.7,
     ibu: 45,
     target_fg: 1010,
@@ -2031,7 +2060,8 @@ const beers: Beer[] = [
     first_brewed: "08/2009",
     description:
       "Brewed when our good friends from Stone visited in 2009. Black As Sin, Hoppy As Hell - no other beer name has quite hit the nail so squarely on the head. Dark roasted malt makes a beautiful canvas for the savage hop bitterness, pine needles and orange zest.",
-    image_url: "https://images.punkapi.com/v2/170.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/bashah.jpg",
     abv: 9.7,
     ibu: 100,
     target_fg: 1015,
@@ -2113,7 +2143,8 @@ const beers: Beer[] = [
     first_brewed: "11/2015",
     description:
       "Japanese citrus fruit intensifies the sour nature of this German classic.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.2,
     ibu: 8,
     target_fg: 1007,
@@ -2174,7 +2205,8 @@ const beers: Beer[] = [
     first_brewed: "11/2009",
     description:
       "We thought it would be great if Jeremy Moynier from Stone Brewing Co. brewed his own beer while he was here, with Jeremy deciding everything right down to the name! The result is a special 20HL batch of BlackDog, a 5.5% dark wheat stout with Columbus, Simcoe and Chinook and of course plenty of dry hopping action.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5.5,
     ibu: 60,
     target_fg: 1020,
@@ -2281,7 +2313,8 @@ const beers: Beer[] = [
     first_brewed: "11/2013",
     description:
       "A fresh tropical hit from this Black IPA, with undertones of roasted coffee. A well balanced, drinkable yet complex beer.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5.8,
     ibu: 40,
     target_fg: 1008,
@@ -2372,7 +2405,8 @@ const beers: Beer[] = [
     first_brewed: "11/2012",
     description:
       "An early Cocoa Psycho recipe that we loved, but didn't fit what we were looking for. We locked this chocolate coffee stout away in barrels for two years, imparting toasted marshmallow, spicy vanilla, molasses and boozy warmth.",
-    image_url: "https://images.punkapi.com/v2/56.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/blackeyedking.jpg",
     abv: 9.5,
     ibu: 85,
     target_fg: 1022,
@@ -2441,7 +2475,8 @@ const beers: Beer[] = [
     first_brewed: "12/2014",
     description:
       "This is the Vietnamese Coffee Edition. At 12.7% ABV, Black Eyed King Imp is a super intense and twistedly complex brew, with intense notes of sweet vanilla, rich espresso, smooth molasses and bitter chocolate barely contained by the whatever container it's in.",
-    image_url: "https://images.punkapi.com/v2/73.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/blackeyedking.jpg",
     abv: 12.7,
     ibu: 85,
     target_fg: 1038,
@@ -2511,7 +2546,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "Jack Hammer has been single handedly ripping it up for quite some time. Now, the definitive bitter and twisted IPA, has spawned four Hammer Head off-springs. Black Hammer is the second of our hyped up hybrid IPAs. A black hearted beast, that takes no prisoners. American hops and dark malt combine to make mischief. Grapefruit and coffee collide in sensory overload – a wake-up call for other IPA’s. Molten waves of pithy grapefruit build and finally ebb to the roasty bitter onslaught. Stand  firm and wield the Black Hammer with care. Stare into the black abyss and succumb to the dark-side.",
-    image_url: "https://images.punkapi.com/v2/230.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/blackhammer.jpg",
     abv: 7.2,
     ibu: 250,
     target_fg: 1010,
@@ -2609,7 +2645,8 @@ const beers: Beer[] = [
     first_brewed: "06/2013",
     description:
       "A Black Saison, brewed with oats and wheat for a silky mouthfeel, Spicy hops and Carafa Malt for colour, then aged in red wine barrels. On the nose there's cola, chocolate, coffee, mint humbug, warming oak, and spice. The myriad flavours touch on treacle, ripe banana, espresso, brandy, and a clean herbal warmth.",
-    image_url: "https://images.punkapi.com/v2/206.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/blackjackes.jpg",
     abv: 11.1,
     ibu: 45,
     target_fg: 1005,
@@ -2687,7 +2724,8 @@ const beers: Beer[] = [
     first_brewed: "12/2010",
     description:
       "Special Collaboration between Nøgne, Mikkeller and BrewDog which is a recipe based on all three brewers’ big stouts; Nøgne Ø Dark Horizon, Mikkeller Black and BrewDog Tokyo*.",
-    image_url: "https://images.punkapi.com/v2/159.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/black-tokio.jpg",
     abv: 17.2,
     ibu: 75,
     target_fg: 1030,
@@ -2782,7 +2820,8 @@ const beers: Beer[] = [
     first_brewed: "07/2013",
     description:
       "Our sour recipe for all fruit Blitz beers uses a process called kettle souring. In this we steep a bag of malt in the wort to allow the bacteria to grow in it.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 3,
     ibu: 8,
     target_fg: 1040,
@@ -2830,7 +2869,8 @@ const beers: Beer[] = [
     first_brewed: "2016",
     description:
       "Belgium meets Berlin – incredible saison character with a bright and vibrant sour edge.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 3.2,
     ibu: 8,
     target_fg: 1007,
@@ -2900,7 +2940,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "We are bringing back our Blitz Series to 2016. Every Blitz we brew is different, due to the spontaneous souring process, and each version has a great blend of all the different flavours we look for in a Berlinerwiesse.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 3.2,
     ibu: 8,
     target_fg: 1032,
@@ -2953,7 +2994,8 @@ const beers: Beer[] = [
     first_brewed: "02/2015",
     description:
       "Brewed with our Equity Punks this rich, smooth stout is brewed with a blend of six malts, resulting in a welcoming, resonant black beer. From start to finish it carries an intense roastiness reminiscent of dark chocolate intertwined with a delicate hint of coconut and caramel.",
-    image_url: "https://images.punkapi.com/v2/118.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6.5,
     ibu: 35,
     target_fg: 1020,
@@ -3008,7 +3050,8 @@ const beers: Beer[] = [
     first_brewed: "01/2014",
     description:
       "Santa Paws Scotch ale aged in bourbon barrels - light, dry and toasty, with vanilla, hints of chocolate and ginger biscuit, and a faint spicy hoppiness.",
-    image_url: "https://images.punkapi.com/v2/34.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5.8,
     ibu: 35,
     target_fg: 1005,
@@ -3079,7 +3122,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "Ice-distilled double barley wine brewed by Chris from Stone Brewing Co. (see Sunmaid Stout) and BrewDog's own brewers. As robust, resinous and badass as its eponymic beard.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 18.3,
     ibu: 50,
     target_fg: 1011,
@@ -3158,7 +3202,8 @@ const beers: Beer[] = [
     first_brewed: "03/2013",
     description:
       "The beer was named Bracken’s Porter as a tribute to our favourite four pawed friend who sadly passed in 2013. Chocolately, robust, warming, laid back and lots of fun - there are plenty of similarities between the two. Bracken we miss you and we hope you like your beer. Long live the original BrewDog.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5,
     ibu: 50,
     target_fg: 1010,
@@ -3219,7 +3264,8 @@ const beers: Beer[] = [
     first_brewed: "01/2011",
     description:
       "Good old Bramling Cross is elegant, refined, assured, (boring) and understated. Understated that is unless you hop the living daylights out of a beer with it. This is Bramling Cross re-invented and re-imagined, and shows just what can be done with English hops if you use enough of them. Poor Bramling Cross normally gets lost in a woeful stream of conformist brown ales made by sleepy cask ale brewers. But not anymore. This beer shows that British hops do have some soul, and is a fruity riot of blackberries, pears, and plums. Reminds me of the bramble, apple and ginger jam my grandmother used to make.",
-    image_url: "https://images.punkapi.com/v2/10.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/bramlinx.jpg",
     abv: 7.5,
     ibu: 75,
     target_fg: 1013,
@@ -3273,7 +3319,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "Loaded with roasty coffee notes and balanced with complex tobacco character. With smoky flavours from the malt, our Beavertown Collab is barrel-aged, but we don’t know for how long until its ready!",
-    image_url: "https://images.punkapi.com/v2/227.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/breawdogvsbeaverton.jpg",
     abv: 9.2,
     ibu: 50,
     target_fg: 1085,
@@ -3336,7 +3383,8 @@ const beers: Beer[] = [
     first_brewed: "11/2013",
     description:
       "Brixton Porter delivers bold chocolate and coffee flavours with light smokiness and hints of autumn fruit all but built on a low ABV, lighter bodied backbone. Complex and intriguing, with spicy bitterness, but very sessionable.",
-    image_url: "https://images.punkapi.com/v2/215.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/brixtonpoter.jpg",
     abv: 5,
     ibu: 50,
     target_fg: 1014,
@@ -3399,7 +3447,8 @@ const beers: Beer[] = [
     first_brewed: "09/2007",
     description:
       "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.5,
     ibu: 60,
     target_fg: 1010,
@@ -3475,7 +3524,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "An experiment in balancing hops on the pilot kit. Grapefruit, orange and resin to the fore.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6.4,
     ibu: 65,
     target_fg: 1011,
@@ -3541,7 +3591,8 @@ const beers: Beer[] = [
     first_brewed: "12/2012",
     description:
       "An Imperial Smoked Porter with a nose like gooseberries and blueberries, stuffed with coffee, covered in chocolate and toasted on a campfire by the beach, Catherine’s Pony is robust and imposing with a herculean mouthfeel. Rich and smooth with roasted smoky flavours battling for prominence over the assertive bitterness. A satisfying hoppiness rounds off the palate.",
-    image_url: "https://images.punkapi.com/v2/196.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/catherinespony.jpg",
     abv: 8.8,
     ibu: 40,
     target_fg: 1017,
@@ -3622,7 +3673,8 @@ const beers: Beer[] = [
     first_brewed: "10/2008",
     description:
       "Chaos Theory is the most under- rated achievement of 20th Century science. This beer can only aspire to parallel to the mathematical use of the word chaos, which is at odds to the common parlance. The purest showcase of the magnificent hop that is Nelson Sauvin; grapefruit, pineapple and caramel sing above the chaos of life.",
-    image_url: "https://images.punkapi.com/v2/124.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/chaos-theory.jpg",
     abv: 7.1,
     ibu: 90,
     target_fg: 1013,
@@ -3688,7 +3740,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "Chili Hammer is the third of our super-charged hyped up hybrids. A smooth tongued spicy assassin. Chili and American hops unite for a flavour bigger than Texas. Citrus peel, mango, with a hint of spice on the nose. Delivers big grapefruit and mango with a smooth chili kick, followed by the bitterest of bitter finishes. Chili Hammer – turn up the gas.",
-    image_url: "https://images.punkapi.com/v2/226.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/chilihammer.jpg",
     abv: 7.2,
     ibu: 250,
     target_fg: 1010,
@@ -3780,7 +3833,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "2015 IPA is Dead series. Often used as a combination hop for American Pale Ales and IPAs, Chinook can really shine when left to front a beer all on its own. The main reason for this is that it’s thunderously piney, with a fistful of spice kicked up in your face as you lie on the beach. A true heavyweight of the brewing industry.",
-    image_url: "https://images.punkapi.com/v2/173.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 7.2,
     ibu: 100,
     target_fg: 1010,
@@ -3839,7 +3893,8 @@ const beers: Beer[] = [
     first_brewed: "12/2013",
     description:
       "A heavy hitting combination of rich malt flavours and relentless, bitter hops. Aromas of caramel and toasted marshmallow, with raisin and dried fruit, alongside a spicy undercurrent of resin. With toasty malt and sweet dark fruit flavours, and a smooth, chewy mouthfeel, you’ll be lulled into a false sense of security, before the intense pine-sap resin draws out a huge bitter finish.",
-    image_url: "https://images.punkapi.com/v2/103.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/clownking.jpg",
     abv: 12,
     ibu: 85,
     target_fg: 1020,
@@ -3937,7 +3992,8 @@ const beers: Beer[] = [
     first_brewed: "11/2012",
     description:
       "Vanilla pods and toasted oak chips add a rounded character to this massive Russian Imperial Stout, brewed with a hefty malt bill, cacao nibs and coffee beans. Dark malts combine with Cascade to add a punchy bitterness, strong enough to offset the big chocolate sweetness.",
-    image_url: "https://images.punkapi.com/v2/109.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/cocoapsycho.jpg",
     abv: 10,
     ibu: 85,
     target_fg: 1012,
@@ -3995,7 +4051,8 @@ const beers: Beer[] = [
     first_brewed: "11/2008",
     description:
       'This beer was released as both as "Danish Beerhouse Coffee Imperial Stout" and "BrewDog Coffee Imperial Stout". Deep, dark, roasted flavours make this a perfect Sunday brunch beer.',
-    image_url: "https://images.punkapi.com/v2/58.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 9,
     ibu: 65,
     target_fg: 1019,
@@ -4076,7 +4133,8 @@ const beers: Beer[] = [
     first_brewed: "04/2008",
     description:
       "A lager that actually tastes of something? You have to be kidding, right? Cult lager is made with 100% malt and whole leaf hops. Maybe we are crazy, so what? Taste our lager and we are pretty sure that you will agree that the fine line between insanity and genius has just become a little more blurred.",
-    image_url: "https://images.punkapi.com/v2/214.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/cult-lager.jpg",
     abv: 5.4,
     ibu: 50,
     target_fg: 1049,
@@ -4146,7 +4204,8 @@ const beers: Beer[] = [
     first_brewed: "02/2013",
     description:
       "Hailing from Slovenia, Dana was originally cross bred from the German Hallertau Magnum and native Slovenian varieties. Like any good faux noble hop should, it infuses a rustic, musty spiciness into a toasty beast of a malt base.",
-    image_url: "https://images.punkapi.com/v2/30.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dana.jpg",
     abv: 6.7,
     ibu: 70,
     target_fg: 1015,
@@ -4213,7 +4272,8 @@ const beers: Beer[] = [
     first_brewed: "09/2013",
     description:
       "Scottish chocolate breakfast Stout - brewed with Brazilian Sertão coffee, Venezuelan cacao and (for the Scottish element) oatmeal. Smooth, chocolately and rich, with a honeycomb mouthfeel and a rich red berry coffee character. Brewed with our beer blogger friends from The Beer Cast and Hopzine.",
-    image_url: "https://images.punkapi.com/v2/210.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/deadmetaphor.jpg",
     abv: 6.8,
     ibu: 30,
     target_fg: 1016,
@@ -4270,7 +4330,8 @@ const beers: Beer[] = [
     first_brewed: "03/2012",
     description:
       "Our California style West Coast IPA has light toffee and caramel notes layered on biscuit malt, supporting a huge, fresh citrus aroma, with lemongrass, lime zest, grapefruit peel, alongside some tropical notes, courtesy of some heavy-hitting US hops.",
-    image_url: "https://images.punkapi.com/v2/91.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dead-pony.jpg",
     abv: 3.8,
     ibu: 35,
     target_fg: 1012,
@@ -4350,7 +4411,8 @@ const beers: Beer[] = [
     first_brewed: "04/2015",
     description:
       "A keg-only summer special, hop- bursted and dry-hopped to infinity.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5.2,
     ibu: 65,
     target_fg: 1010,
@@ -4427,7 +4489,8 @@ const beers: Beer[] = [
     first_brewed: "12/2008",
     description:
       "Two of Europe's most experimental, boundary-pushing brewers, BrewDog and Mikkeller, combined forces to produce a rebellious beer that combined their respective talents and brewing skills. The 12.5% Barley Wine fermented well, and the champagne yeast drew it ever closer to 12.5%. The beer was brewed with a single hop variety and was going to be partially aged in oak casks.",
-    image_url: "https://images.punkapi.com/v2/22.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/devine-rebel.jpg",
     abv: 12.5,
     ibu: 100,
     target_fg: 1030,
@@ -4482,7 +4545,8 @@ const beers: Beer[] = [
     first_brewed: "05/2012",
     description:
       "Our anniversary stout was based on AB:04, one of our most sought after beers ever. This beer is slightly different each year, with subtle variations coming into play purely down to environmental and fermentation factors. What doesn't change is the rich dark chocolate, bitter coffee and chili warmth of this monumental stout.",
-    image_url: "https://images.punkapi.com/v2/138.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/doga.jpg",
     abv: 15,
     ibu: 90,
     target_fg: 1003,
@@ -4570,7 +4634,8 @@ const beers: Beer[] = [
     first_brewed: "05/2013",
     description:
       "Our anniversary stout was based on AB:04, one of our most sought after beers ever. This beer is slightly different each year, with subtle variations coming into play purely down to environmental and fermentation factors. What doesn't change is the rich dark chocolate, bitter coffee and chilli warmth of this monumental Stout.",
-    image_url: "https://images.punkapi.com/v2/27.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dosb.jpg",
     abv: 15,
     ibu: 90,
     target_fg: 1003,
@@ -4659,7 +4724,8 @@ const beers: Beer[] = [
     first_brewed: "05/2015",
     description:
       "Dog D is an extra special brew, marking 8 years of BrewDog. Like Dog A, B & C before it, Dog D is an Imperial Stout with speciality ingredients, only this time we’ve barrel-aged it too. Dog D pours like dark matter into your glass, with a deep tan head. The nose is subtle but powerful, and on the palate, there’s a treacle toffee backbone, supporting the spicy hop flavour and naga chilli heat.",
-    image_url: "https://images.punkapi.com/v2/177.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dogd.jpg",
     abv: 16.1,
     ibu: 85,
     target_fg: 1015,
@@ -4754,7 +4820,8 @@ const beers: Beer[] = [
     first_brewed: "06/2016",
     description:
       "Dog E is a very special beer. This beer commemorates our 9th year in 2016. This beer originally appeared as AB:04 in 2010, perhaps the most sought after beer we ever brewed. Dog E is a 16.1% Imperial Stout brewed with copious amounts of dark malts, pure cacao and coffee, balanced by the subtle addition of naga chili, and barrel-aged. Perfect for ageing in your cellar, or drinking fresh if you’re lucky enough to get your paws on a bottle.",
-    image_url: "https://images.punkapi.com/v2/222.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/doge.jpg",
     abv: 16.1,
     ibu: 100,
     target_fg: 1125,
@@ -4837,7 +4904,8 @@ const beers: Beer[] = [
     first_brewed: "10/2012",
     description:
       "A clash of kings. A spiced toffee malt backbone arranged against a tidal wave of US hops. Citrus, nectarine and juicy tropical fruits are layered into this complex beer.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 8.5,
     ibu: 65,
     target_fg: 1012,
@@ -4913,7 +4981,8 @@ const beers: Beer[] = [
     first_brewed: "06/2013",
     description:
       "Brewed in collaboration with Soren from New Zealand’s stellar 8-Wired brewery, this is an Imperial Pilsner featuring two of our favourite New Zealand hops: Nelson Sauvin and Motueka. Sitting at a dangerously drinkable 7.1% ABV there’s a touch of Munich malt which gives this beer that little extra caramel biscuit bite to compliment the lip smackingly tropical hops. Expect an all out NZ hoppy riot.",
-    image_url: "https://images.punkapi.com/v2/44.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dogwired.jpg",
     abv: 7.1,
     ibu: 65,
     target_fg: 1010,
@@ -5003,7 +5072,8 @@ const beers: Beer[] = [
     first_brewed: "07/2013",
     description:
       "Brewed with over ten different types of malt, and blended together with Scottish heather honey, it is a pantheon to the gods of intricacy and nuance; a beer that celebratesa confluence of ideas. Complex, indulgent and encapsulating, Dogma gives more than a cursory nod to history, to make you ponder the very nature of beer itself.",
-    image_url: "https://images.punkapi.com/v2/60.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/dogmA.jpg",
     abv: 7.5,
     ibu: 30,
     target_fg: 1023,
@@ -5066,7 +5136,8 @@ const beers: Beer[] = [
     first_brewed: "2018",
     description:
       "A Vermont IPA with fruit and milk sugars added - recreating fruity milkshake character in an IPA.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 7.8,
     ibu: 15,
     target_fg: 1018,
@@ -5138,7 +5209,8 @@ const beers: Beer[] = [
     first_brewed: "12/2007",
     description:
       "Low ABV, high flavour, this beer was brewed to show that a beer can have all the flavour without the drunken affects. Also this beer is one of BrewDog's original brews that made a rare appearance in cask. Spicy, malty biscuit and super drinkable.",
-    image_url: "https://images.punkapi.com/v2/cask.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 2.7,
     ibu: 36,
     target_fg: 1010,
@@ -5218,7 +5290,8 @@ const beers: Beer[] = [
     first_brewed: "02/2013",
     description:
       "The Pacific North West of America grows remarkable hops and El Dorado is a killer example of this. A new hop on the block, loaded with tropical fruits, pear, watermelon, candy floss and stone fruit.",
-    image_url: "https://images.punkapi.com/v2/213.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/elsorado.jpg",
     abv: 6.7,
     ibu: 70,
     target_fg: 1015,
@@ -5285,7 +5358,8 @@ const beers: Beer[] = [
     first_brewed: "05/2013",
     description:
       "Re-brewed as a spring seasonal, this beer – which appeared originally as an Equity Punk shareholder creation – retains its trademark spicy, fruity edge. A perfect blend of Belgian Saison and US IPA, crushed peppercorns and heather honey are also added to produce a genuinely unique beer.",
-    image_url: "https://images.punkapi.com/v2/6.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/electricindia.jpg",
     abv: 5.2,
     ibu: 38,
     target_fg: 1005,
@@ -5363,7 +5437,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "2015 IPA is Dead Series. Supremely floral, this hugely under-rated hop is related to Galaxy and was first cultivated in the Australian state of Victoria. Initially given the same name as a certain Eurolager, their lawyers got involved and the St- prefix was dropped. Ella displays subtle notes of spice, but is fundamentally a truly floral bouquet, redolent of the Southern Hemisphere.",
-    image_url: "https://images.punkapi.com/v2/164.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ella.jpg",
     abv: 7.2,
     ibu: 100,
     target_fg: 1010,
@@ -5421,7 +5496,8 @@ const beers: Beer[] = [
     first_brewed: "12/2015",
     description:
       "Punchy resinous hoppy aromas blast from the glass; light floral and citrus notes riff against huge piney character. Showcasing Citra, Simcoe and Amarillo at their absolute best. A huge dose of grapefruit peel brings swirls of fresh pithy zest, accentuating the dry hops and building on the dry, biscuit malt base.",
-    image_url: "https://images.punkapi.com/v2/100.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/elvisjuice.jpg",
     abv: 6.5,
     ibu: 60,
     target_fg: 1010,
@@ -5523,7 +5599,8 @@ const beers: Beer[] = [
     first_brewed: "10/2009",
     description:
       "Trashy Blonde with a Belgian Twist. Clove oil, red apples and a drier mouthfeel set this beer apart from its older sister.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.1,
     ibu: 52,
     target_fg: 1010,
@@ -5627,7 +5704,8 @@ const beers: Beer[] = [
     first_brewed: "06/2013",
     description:
       "This French white wine barrel aged Imperial Saison has a plethora of intertwining flavours. Huge aromas of peach, syrup, tangerine, sherry, toffee and raisin, followed by a dynamic bracing acidity.",
-    image_url: "https://images.punkapi.com/v2/94.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 10.5,
     ibu: 45,
     target_fg: 1005,
@@ -5701,7 +5779,8 @@ const beers: Beer[] = [
     first_brewed: "03/2013",
     description:
       "Fake is the new black. Fake is where it is at. Fake Art, fake brands, fake breasts, and fake lager. We want to play our part in the ugly fallout from the Lager Dream. Say hello to Fake Lager – a zesty, floral 21st century faux masterpiece with added BrewDog bitterness.",
-    image_url: "https://images.punkapi.com/v2/8.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/fakelager.jpg",
     abv: 4.7,
     ibu: 40,
     target_fg: 1010,
@@ -5781,7 +5860,8 @@ const beers: Beer[] = [
     first_brewed: "2016",
     description:
       "Our Blitz series sees us brew up low abv, super tart Berliner Weisse, and generally infuse them with bags of sour fruit flavour – but this batch uses gin botanicals instead.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 3.2,
     ibu: 8,
     target_fg: 1008,
@@ -5847,7 +5927,8 @@ const beers: Beer[] = [
     first_brewed: "02/2013",
     description:
       "This is East Kent Goldings re- invented and re-imagined and shows just what can be done with English hops if you use enough of them. In this amped up Goldings reincarnation expect to be slammed with floral lavender, a fruity riot of blackberries and spiced pears, bubblegum, plums and the illusion of thyme.",
-    image_url: "https://images.punkapi.com/v2/48.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/goldings.jpg",
     abv: 6.7,
     ibu: 70,
     target_fg: 1015,
@@ -5915,7 +5996,8 @@ const beers: Beer[] = [
     first_brewed: "12/2009",
     description:
       "Pounding a triple payload of the biggest North American hops humanity has devised, braced by a backbone of caramel malt, this beer is deep, astringent and resinous, pushing to the extremes of lupulin thresholds. There’s nothing inscrutable going on; no mystery in the backstory. It doesn’t seek to be understood. A beer incapable of empathy; only hop overload.",
-    image_url: "https://images.punkapi.com/v2/42.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/hardcore-ipa.jpg",
     abv: 9.2,
     ibu: 125,
     target_fg: 1016,
@@ -6029,7 +6111,8 @@ const beers: Beer[] = [
     first_brewed: "06/2010",
     description:
       "Brewed for the beer maniacs in Denmark, this Double IPA quivered with kumquat, kiwi and orange pith all held together with a honeycomb malt body.",
-    image_url: "https://images.punkapi.com/v2/194.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/HARDKOGT.jpg",
     abv: 7.6,
     ibu: 175,
     target_fg: 1014,
@@ -6132,7 +6215,8 @@ const beers: Beer[] = [
     first_brewed: "2018",
     description:
       "A draft-only BrewDog bar exclusive; we have experimented with ageing our Vermount IPA for a short time in bourbon and rye barrels, both known for imparting flavour quickly compared to other types of barrel.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 7.2,
     ibu: 30,
     target_fg: 1009,
@@ -6229,7 +6313,8 @@ const beers: Beer[] = [
     first_brewed: "2018",
     description:
       "A draft-only BrewDog bar exclusive; we have experimented with ageing our Vermount IPA for a short time in bourbon and rye barrels, both known for imparting flavour quickly compared to other types of barrel.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 7.2,
     ibu: 30,
     target_fg: 1009,
@@ -6327,7 +6412,8 @@ const beers: Beer[] = [
     first_brewed: "08/2012",
     description:
       "A Scottish take on Hello My Name is Ingrid with added brambles. Caramel malt provides sweetness to balance the tart berry character, which loses sweetness during fermentation.",
-    image_url: "https://images.punkapi.com/v2/105.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/hello-beastie.jpg",
     abv: 8.2,
     ibu: 42,
     target_fg: 1013,
@@ -6426,7 +6512,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "This beer hits all the high-points of Hello My Name is Ingrid – with one important exception. Brewed at 4.4% abv, Little Ingrid is a session- strength version of our cloudberry- infused celebration of all that is epic about Sweden. The zesty balance of citrus from the four different hops is just as pronounced as in the original.",
-    image_url: "https://images.punkapi.com/v2/147.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/helloingrid.jpg",
     abv: 4.4,
     ibu: 35,
     target_fg: 1012,
@@ -6546,7 +6633,8 @@ const beers: Beer[] = [
     first_brewed: "05/2014",
     description:
       "Brewed with sea buckthorn, a tart and bitter berry found on the Finnish coastline. Bright, vibrant aromas of tangerine, mandarin and peach, with zesty hits of lime, envelop the nutty, caramel malt backbone. The intense fruitiness gives a jammy quality to the nose. On the palate is a warm biscuity sweetness, with tropical fruits in a supporting role to a huge grapefruit and orange bitterness.",
-    image_url: "https://images.punkapi.com/v2/99.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 8.3,
     ibu: 70,
     target_fg: 1013,
@@ -6654,7 +6742,8 @@ const beers: Beer[] = [
     first_brewed: "09/2013",
     description:
       "Brewed in collaboration with Jeppe from Evil Twin Brewing (and named after his mum), this Double IPA is big on fruity flavours. Single hopped with Mosaic for lots of tropical, passion fruit and citrus flavours. Loaded with well over 100kg of blueberries, the original was one super fruity hop bomb.",
-    image_url: "https://images.punkapi.com/v2/190.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/SONJA.jpg",
     abv: 8.3,
     ibu: 70,
     target_fg: 1013,
@@ -6727,7 +6816,8 @@ const beers: Beer[] = [
     first_brewed: "11/2013",
     description:
       "Brewed with mountains of Wheat, Rye, Cara and Crystal malts, fermented with an American ale yeast and bittered with Amarillo & Centennial, this 4.2% beer is what happens if something classy like a European wheat beer goes to live in Vegas. Zingy citrus hops and a punchy bitterness bolster this low ABV pale.",
-    image_url: "https://images.punkapi.com/v2/77.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/hobopop.jpg",
     abv: 4.2,
     ibu: 50,
     target_fg: 1010,
@@ -6813,7 +6903,8 @@ const beers: Beer[] = [
     first_brewed: "04/2007",
     description:
       "The first of our foray into lager beer, Hop Rocker is a high impact, hoppy behemoth made with 100% malt. Since 2007 we have been obsessive about quality, using only the best ingredients to ensure the flavour and craftsmanship of the beer in your glass. Hop Rocker is testament to that. The malt base gives this beer a sweet, balanced complexity while the combination of New Zealand and German hops merges new world tropical juiciness with old world peppery spice.",
-    image_url: "https://images.punkapi.com/v2/117.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/hop-rocker.jpg",
     abv: 5.5,
     ibu: 40,
     target_fg: 1010,
@@ -6884,7 +6975,8 @@ const beers: Beer[] = [
     tagline: "Hop Yeast Synergy.",
     first_brewed: "03/2015",
     description: "Hoppy citrus and tropical fruit Saison.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6.4,
     ibu: 40,
     target_fg: 1010,
@@ -6971,7 +7063,8 @@ const beers: Beer[] = [
     first_brewed: "04/2009",
     description:
       "Jam-packed with two of our favourite hops - Columbus and Centennial, it has 198 (yes one hundred and ninety eight) theoretical IBUs. We use a lot of caramalt, some amber malt and some chocolate malt to give the little beer as much body and mouthfeel as possible and the ability to handle all the hops we threw at it. We think this beer is the world’s first ever Imperial Mild. Imperial in terms of hop profile. An Imperially Hopped Mild. BrewDog’s Imperial Mild. How to Disappear Completely.",
-    image_url: "https://images.punkapi.com/v2/179.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/how-to-dosapeear.jpg",
     abv: 3.5,
     ibu: 198,
     target_fg: 1010,
@@ -7081,7 +7174,8 @@ const beers: Beer[] = [
     first_brewed: "05/2012",
     description:
       "This straight-up US style pale ale uses some of our favourite hops against a toasty malt base. We brewed this with Sir Tom Hunter at our Fraserburgh brewery - to add a charitable element to your own version, feel free to share this citrusy pale ale with your friends. Or don't, it's your choice.",
-    image_url: "https://images.punkapi.com/v2/67.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/hunter-foundation.jpg",
     abv: 5.4,
     ibu: 35,
     target_fg: 1008,
@@ -7149,7 +7243,8 @@ const beers: Beer[] = [
     first_brewed: "08/2007",
     description:
       "A perfect pale ale showcase for the tropical profile of New Zealand hops and the intense citrus of US hops.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.1,
     ibu: 65,
     target_fg: 1010,
@@ -7211,7 +7306,8 @@ const beers: Beer[] = [
     first_brewed: "11/2015",
     description:
       "BrewDog’s level of dry-hop to a beer formed with a baseline of 100% pilsner malt – and at under 4.5% ABV – gives you a style that flirts at the edges of several others. Think aromas of fresh cut grass, nettle, white grape, melon, tangerine - with similar flavours leading to a dry, bitter finish.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 4.4,
     ibu: 35,
     target_fg: 1007,
@@ -7301,7 +7397,8 @@ const beers: Beer[] = [
     first_brewed: "11/2013",
     description:
       "Interstellar is a Red Rye IPA with spicy rye flavours from the malt and with great all-round spicy, fruity and earthy hop aromas from the use of Willamette and Amarillo.",
-    image_url: "https://images.punkapi.com/v2/191.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/interstellar.jpg",
     abv: 6.5,
     ibu: 55,
     target_fg: 1011,
@@ -7387,7 +7484,8 @@ const beers: Beer[] = [
     first_brewed: "06/2012",
     description:
       "Hopped beyond the point at which IBUs are measurable, only the most hardened palate will get beyond Jack Hammer's intensely resinous pithy bitterness and to the grapefruit, orange zest and dry biscuity malt beyond. You could brew this with less hops, but really, why would you bother?",
-    image_url: "https://images.punkapi.com/v2/168.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/jack-hammer.jpg",
     abv: 7.2,
     ibu: 250,
     target_fg: 1010,
@@ -7479,7 +7577,8 @@ const beers: Beer[] = [
     first_brewed: "03/2014",
     description:
       "This has big floral aromas backed up with some of our favourite fruity hop flavours. Bitter, bright and refreshing, our Jasmine IPA is a perfect spring beer for drinking outside (under a patio heater, with a pair of gloves on).",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5.8,
     ibu: 40,
     target_fg: 1014,
@@ -7564,7 +7663,8 @@ const beers: Beer[] = [
     first_brewed: "01/2016",
     description:
       "Good things come to those who wait. This smooth and roasty oatmeal milk stout won our 2015 Prototype Challenge at a canter. Roasty coffee and chocolate lead to a decadent, full-bodied richness of near uncharted depths with a velvet mouthfeel from the addition of oatmeal and a touch of wheat. This is complemented at every turn by the Magnum and Sorachi Ace hops, with the latter bringing an intensity of smooth vanilla and dark berry fruit on the long, rewarding finish.",
-    image_url: "https://images.punkapi.com/v2/126.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/blackheart.jpg",
     abv: 4.7,
     ibu: 45,
     target_fg: 1019,
@@ -7624,7 +7724,8 @@ const beers: Beer[] = [
     first_brewed: "06/2011",
     description:
       "A variant on the 2008 release of Bad Pixie, but hoppier. Substituting the lemon peel for Ahtanum provided a vibrant floral and lemon citrus hit, balancing the slight tartness from the wheat. This dry, effervescent brew is perfect on Scotland's one day of summer.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 5,
     ibu: 40,
     target_fg: 1008,
@@ -7684,7 +7785,8 @@ const beers: Beer[] = [
     first_brewed: "2018",
     description:
       "A draft-only exclusive beer for International markets as part of\nthe DogDealers programme. Karma Cloud is a tropical IPA, designed to cram as much fruit flavour in as possible using only hops to recreate those flavours.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6.5,
     ibu: 50,
     target_fg: 1010,
@@ -7768,7 +7870,8 @@ const beers: Beer[] = [
     first_brewed: "10/2014",
     description:
       "Named in a slight deviation from our Hello My Name Is series, Konnichiwa Kitsune is a Japanese- inspired, yuzu-infused Imperial IPA, brewed with Amarillo, Cascade and Citra. These punchy new world hops bring orange, grapefruit and lime to back up the yuzu aroma and flavour. Big mandarin notes, balanced against a caramel malt biscuity base.",
-    image_url: "https://images.punkapi.com/v2/174.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/konnichiwa.jpg",
     abv: 4.4,
     ibu: 70,
     target_fg: 1012,
@@ -7881,7 +7984,8 @@ const beers: Beer[] = [
     first_brewed: "03/2012",
     description:
       "A dark hop bomb combining the malt-forward indulgences of a stout with the insatiable hopload of an IPA. Rich spiced blackcurrant and caramel up front, with a sharp bitter finish following behind, bringing grapefruit and resin with it. Dry, bitter and intense; this is an IPA first and foremost, given a dark malt makeover. Originally brewed as a Simcoe only single hop IPA, we've experimented with adding a little Cascade and Mosaic for extra depth.",
-    image_url: "https://images.punkapi.com/v2/167.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/liobertine-black.jpg",
     abv: 7.2,
     ibu: 50,
     target_fg: 1013,
@@ -7967,7 +8071,8 @@ const beers: Beer[] = [
     first_brewed: "01/2012",
     description:
       "An avalanche of cross-continental hop varieties give this porter a complex spicy, resinous and citrusy aroma, with a huge malt bill providing a complex roasty counterpoint. Digging deeper into the flavour draws out cinder toffee, bitter chocolate and hints of woodsmoke.",
-    image_url: "https://images.punkapi.com/v2/16.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/libertine-portier.jpg",
     abv: 6.1,
     ibu: 45,
     target_fg: 1020,
@@ -8059,7 +8164,8 @@ const beers: Beer[] = [
     first_brewed: "01/2013",
     description:
       "Dry-hopped with some of our hop heroes, bringing incredibly fruity aromas of zesty orange, pithy grapefruit, pungent pine and resin, backed up with spicy, toasty malt flavours of toffee, biscuit, rye bread and toast crust.",
-    image_url: "https://images.punkapi.com/v2/187.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/lich-pale.jpg",
     abv: 5.2,
     ibu: 50,
     target_fg: 1010,
@@ -8165,7 +8271,8 @@ const beers: Beer[] = [
     first_brewed: "11/2011",
     description:
       "Our first beer aged in rum casks, Lost Dog saw us brew a collaboration imperial porter with our friends at Lost Abbey. The base beer was packed with toffee, chocolate and roasty notes, balanced with a subtle spicy hop character. The rum casks add a warming, spiced vanilla edge.",
-    image_url: "https://images.punkapi.com/v2/50.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/lostdog.png",
     abv: 10,
     ibu: 35,
     target_fg: 1012,
@@ -8216,7 +8323,8 @@ const beers: Beer[] = [
     first_brewed: "12/2013",
     description:
       "Lumberjack Stout is an intense beast that took its inspriation from what an actual bona-fide lumberjack might have for breakfast. Flavours of molasses, chocolate, smoke, berry, coffee and more, with a low bitterness, leaning this beer firmly towards the malty side.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 15.2,
     ibu: 20,
     target_fg: 1020,
@@ -8275,7 +8383,8 @@ const beers: Beer[] = [
     first_brewed: "06/2014",
     description:
       "A session IPA brewed with a diverse grain bill, hopped with Simcoe and Amarillo and fermented with saison yeast, for an incredible level of depth in a low ABV beer. Spicy, fruity, complex, refreshing and dry.",
-    image_url: "https://images.punkapi.com/v2/61.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/magicstone.jpg",
     abv: 4.6,
     ibu: 30,
     target_fg: 1008,
@@ -8334,7 +8443,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "From the central European plains of Germany, comes something very different. A blast of tangerine and orange, Mandarina Bavaria brings a highly distinctive backbone of flavour. This is down to its parent – Cascade – and a frankly enormous 70% myrcene oil content. If equate Germany solely with earthy, spicy Noble hops, Mandarina Bavaria will make you think again.",
-    image_url: "https://images.punkapi.com/v2/59.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/mandarina.jpg",
     abv: 7.2,
     ibu: 100,
     target_fg: 1010,
@@ -8393,7 +8503,8 @@ const beers: Beer[] = [
     first_brewed: "07/2015",
     description:
       "Kettle soured hoppy mango gose. A delicate balance of sweet, juicy mango, sour lime and salinity.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6.4,
     ibu: 40,
     target_fg: 1000,
@@ -8460,7 +8571,8 @@ const beers: Beer[] = [
     first_brewed: "05/2013",
     description:
       "A rich, nutty Brown Ale with a deep, rich malt profile, hopped with a range of citrusy and spicy US varieties. Mellow yet endlessly complex, with enough chocolate and fruit character to balance the bitterness, and a soft oaky roundness.",
-    image_url: "https://images.punkapi.com/v2/76.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/mashtag15.jpg",
     abv: 7.5,
     ibu: 50,
     target_fg: 1013,
@@ -8547,7 +8659,8 @@ const beers: Beer[] = [
     first_brewed: "05/2014",
     description:
       "A slightly psychotic, orange-that- thinks-it’s-a-grapefruit character builds upon and intensifies the hop bitterness, squaring up against the rich sweet malt base. The result is a huge Red Ale with a drinkable quality you’d expect in a beer half this strength.",
-    image_url: "https://images.punkapi.com/v2/136.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/mashtag2014.jpg",
     abv: 9,
     ibu: 50,
     target_fg: 1015,
@@ -8645,7 +8758,8 @@ const beers: Beer[] = [
     first_brewed: "05/2015",
     description:
       "Democratically voted on by you and the BrewDog beer community. A wonderfully burnt toast malt backbone, loaded with American Hops for floral, citrus flavours and warm boozy vanilla and toasted oak.",
-    image_url: "https://images.punkapi.com/v2/90.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/mashtag15.jpg",
     abv: 10,
     ibu: 85,
     target_fg: 1020,
@@ -8757,7 +8871,8 @@ const beers: Beer[] = [
     first_brewed: "03/2015",
     description:
       "A Pilot Brew with 200Kg of fresh melon and 5Kg fresh cucumber added after fermentation to produce the perfect summer refreshment.",
-    image_url: "https://images.punkapi.com/v2/keg.png",
+    image_url:
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/defaultbeer.png",
     abv: 6,
     ibu: 50,
     target_fg: 1010,
