@@ -263,7 +263,7 @@ const beers: Beer[] = [
     description:
       "Made with the yeast from a bottle of Westvleteren 12, aged with vanilla beans. Only available in 375ml bottles. Limited to 3200 bottles. The first in our Abstrakt series.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab03.jpg",
     abv: 10.2,
     ibu: 20,
     target_fg: 1018,
@@ -325,7 +325,7 @@ const beers: Beer[] = [
     description:
       "Imperial Stout brewed with coffee, cocoa, Naga chillies (the hottest in the world), and champagne yeast. Possibly our most acclaimed Abstrakt yet.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB4.jpg",
     abv: 15,
     ibu: 80,
     target_fg: 1018,
@@ -398,7 +398,7 @@ const beers: Beer[] = [
     description:
       "Belgian Imperial Stout aged on toasted coconut and cacao. The Belgian yeast strain introduces a whole new dimension to the Imperial Stout style resulting in a beer that resembles a marshmallow toasted on a smouldering barbeque then smothered in dark chocolate. Massively seductive and encapsulating this blacker than midnight beer pours with coffee brown head so thick you could almost stand on it, and with an epic lacing on your glass.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB5.jpg",
     abv: 12.5,
     ibu: 40,
     target_fg: 1030,
@@ -463,7 +463,7 @@ const beers: Beer[] = [
     description:
       "Whisky cask-aged imperial scotch ale. Beer perfect for when the rain is coming sideways. Liquorice, plum and raisin temper the warming alcohol, producing a beer capable of holding back the Scottish chill.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab03.jpg",
     abv: 12.5,
     ibu: 30,
     target_fg: 1020,
@@ -527,7 +527,7 @@ const beers: Beer[] = [
     description:
       "This Cranachan Imperial Stout was inspired by the famous Scottish dessert, and brewed with a mountain of dark malts, loads of oats, Scottish heather honey and local raspberries. The beer was then transferred to oak casks to mature for 6 months.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB4.jpg",
     abv: 11.6,
     ibu: 77,
     target_fg: 1022,
@@ -593,7 +593,7 @@ const beers: Beer[] = [
     description:
       "A decadent, robust and encapsulating Imperial Ale. A rollercoaster of devilish berries, smooth vanilla, toasted marshmallow and wine gums; caramel malt balanced with moderate bitterness and a roasty edge.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB5.jpg",
     abv: 11.5,
     ibu: 80,
     target_fg: 1020,
@@ -660,7 +660,7 @@ const beers: Beer[] = [
     description:
       "AB:11 is an Imperial Black Barley Wine brewed with ginger, black raspberries and chipotle peppers. A 12.8% rollercoaster of ginger zestiness and chipotle smokiness, all bound together with dark berry tartness and the decadent residual body of a Black Barley Wine.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab03.jpg",
     abv: 12.8,
     ibu: 70,
     target_fg: 1020,
@@ -743,7 +743,7 @@ const beers: Beer[] = [
     description:
       "An Imperial Black Belgian Ale aged in old Invergordon Scotch whisky barrels with mountains of raspberries, tayberries and blackberries in each cask. Decadent but light and dry, this beer would make a fantastic base for ageing on pretty much any dark fruit - we used raspberries, tayberries and blackberries beause they were local.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB4.jpg",
     abv: 11.2,
     ibu: 35,
     target_fg: 1017,
@@ -845,7 +845,7 @@ const beers: Beer[] = [
     description:
       "Think banoffee pie; loads of creamy sweet banana, and sticky warm toffee. This beer is super complex, and one for the sweet-toothed!",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB5.jpg",
     abv: 10,
     ibu: 30,
     target_fg: 1016,
@@ -919,7 +919,7 @@ const beers: Beer[] = [
     description:
       "A salted caramel popcorn Imperial Ale. Bourbon and Rum barrel aged, this 12.8% ale has complex and twisting flavours. Bitter caramel, wood, smoke, spice, treacle and vanilla are all present and intertwine against a smooth and lightly chewy mouthfeel. The salted caramel popcorn lends subtle hints of a smoky brininess.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab03.jpg",
     abv: 12.8,
     ibu: 50,
     target_fg: 1020,
@@ -980,7 +980,7 @@ const beers: Beer[] = [
     description:
       "On the nose, clove and nutmeg, cafe au lait, subtle dark fruit notes, and hints of candied lemon peel. On the palate, smooth & fruity espresso, milk chocolate, and warm brandy-soaked currants are in the middle of a high-class dance-off against the spicy and peppery Belgian character. The overall impression evokes malt loaf or ginger cake.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB4.jpg",
     abv: 10.6,
     ibu: 55,
     target_fg: 1012,
@@ -1044,7 +1044,7 @@ const beers: Beer[] = [
     description:
       "A triple whammy of coffee from HasBean gives our 17th Abstrakt concept beer an intense and roasty, dark mocha character. We brewed with espresso in the mash, cafetiere in the boil, and whole roast beans in the whirlpool and the fermenter.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab5.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB5.jpg",
     abv: 10.7,
     ibu: 100,
     target_fg: 1025,
@@ -1106,7 +1106,7 @@ const beers: Beer[] = [
     description:
       "AB:18 began life as an Imperial Brown Ale before we bombarded it with Scottish tayberries and Purple raspberries and locked it away in rum barrels for two years, infusing rich dark fruit flavours and oaky warmth into the mix.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab3.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab03.jpg",
     abv: 11.8,
     ibu: 80,
     target_fg: 1020,
@@ -1178,7 +1178,7 @@ const beers: Beer[] = [
     description:
       "An English Barley Wine brewed with coffee and milk, with rich toasty & caramel flavours. To complete the tiramisu effect, we’ve blended this with a 3 year rum cask aged Imperial Stout.",
     image_url:
-      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/ab4.jpg",
+      "https://raw.githubusercontent.com/pablojulianrial/images/main/beers/AB4.jpg",
     abv: 14.2,
     ibu: 20,
     target_fg: 1120,
