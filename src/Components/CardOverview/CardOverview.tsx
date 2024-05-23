@@ -23,6 +23,11 @@ function CardOverview({ beers }: CardOverviewProps) {
       <div className="overview-card__content">
         <div className="overview-card__img">
           <img src={beer.image_url} alt="" />
+          <div className="home-link__container">
+            <Link className="home-link" to="/">
+              Home
+            </Link>
+          </div>
         </div>
         <div className="overview-card__info">
           <p className="overview-card__info--tag">{beer.tagline}</p>
@@ -32,11 +37,6 @@ function CardOverview({ beers }: CardOverviewProps) {
           <p className="overview-card__info--food--head">Goes with:</p>
           <p className="overview-card__info--food">{beer.food_pairing}</p>
         </div>
-      </div>
-      <div className="home-link__container">
-        <Link className="home-link" to="/">
-          Home
-        </Link>
       </div>
     </div>
   );
